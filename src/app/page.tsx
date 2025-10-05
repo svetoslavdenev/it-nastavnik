@@ -112,7 +112,7 @@ export default function Home() {
             {/* Main heading with enhanced effects */}
             <div className="animate-fade-in-up mb-8">
               <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8 border border-white/20 hover:bg-white/15 transition-all duration-300 group">
-                <span className="text-sm font-medium text-white/90 mr-2">🚀 Професионални IT услуги</span>
+                <span className="text-sm font-medium text-white/90 mr-2">🚀 Твоят IT наставник</span>
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse group-hover:animate-glow"></span>
               </div>
               <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight text-white">
@@ -457,7 +457,7 @@ export default function Home() {
               className="interactive-button bg-white text-gray-900 px-12 py-6 rounded-2xl font-bold text-xl shadow-2xl hover:shadow-white/25 transition-all duration-300 inline-flex items-center group"
             >
               <span className="mr-3 group-hover:animate-pulse">🚀</span>
-              Подайте заявка сега
+              Заявете разговор сега
               <span className="ml-3 group-hover:translate-x-1 transition-transform">→</span>
             </Link>
           </div>

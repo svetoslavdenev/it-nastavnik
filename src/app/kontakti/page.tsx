@@ -26,19 +26,11 @@ export default function KontaktiPage() {
       color: 'blue'
     },
     {
-      title: 'Телефон',
-      value: '+359 888 123 456',
-      icon: '📞',
-      description: 'Обадете ни се в работно време: Пон-Пет 9:00-18:00',
-      action: 'tel:+359888123456',
-      color: 'green'
-    },
-    {
-      title: 'LinkedIn',
+      title: 'Facebook',
       value: 'IT Наставник',
-      icon: '💼',
-      description: 'Свържете се с нас в LinkedIn за професионални въпроси',
-      action: '#',
+      icon: '👥',
+      description: 'Свържете се с нас във Facebook за новини, актуализации и въпроси',
+      action: 'https://www.facebook.com/profile.php?id=61580809953620',
       color: 'purple'
     },
     {
@@ -145,6 +137,8 @@ export default function KontaktiPage() {
                   {isExternal ? (
                     <a
                       href={method.action}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={`inline-flex items-center px-6 py-3 rounded-xl font-semibold transition-all duration-300 group-hover:translate-x-2 ${colorClasses.text} ${colorClasses.hover} border ${colorClasses.border} hover:bg-white/5`}
                     >
                       Свържете се

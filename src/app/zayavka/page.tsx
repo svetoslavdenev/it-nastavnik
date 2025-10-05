@@ -149,7 +149,7 @@ export default function ZayavkaPage() {
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
               </div>
               <h1 className="text-5xl md:text-7xl font-bold mb-8 text-white leading-tight">
-                Заявете обаждане
+                Заявете разговор
               </h1>
             </div>
             <div className="animate-fade-in-up stagger-2">

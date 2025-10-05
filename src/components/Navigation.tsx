@@ -10,11 +10,11 @@ export default function Navigation() {
   const pathname = usePathname();
 
   const navItems = [
-    { href: '/', label: 'Начало', icon: '🏠' },
-    { href: '/uslugi', label: 'Услуги', icon: '⚡' },
-    { href: '/zayavka', label: 'Заявка', icon: '📝' },
-    { href: '/faq', label: 'FAQ', icon: '❓' },
-    { href: '/kontakti', label: 'Контакти', icon: '📞' },
+    { href: '/', label: 'Начало' },
+    { href: '/uslugi', label: 'Услуги' },
+    { href: '/zayavka', label: 'Заявка' },
+    { href: '/faq', label: 'FAQ' },
+    { href: '/kontakti', label: 'Контакти' },
   ];
 
   useEffect(() => {
@@ -54,7 +54,6 @@ export default function Navigation() {
                     : 'text-gray-300 hover:text-white hover:bg-gray-800/50'
                 }`}
               >
-                <span className="inline-block mr-2 group-hover:animate-pulse">{item.icon}</span>
                 {item.label}
                 {pathname === item.href && (
                   <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-400 to-cyan-400 animate-scale-in"></div>
@@ -70,15 +69,15 @@ export default function Navigation() {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
-            <div className="w-6 h-6 flex flex-col justify-center items-center">
+            <div className="w-6 h-6 flex flex-col justify-center items-center space-y-1">
+              <span className={`block w-5 h-0.5 bg-gray-300 transition-all duration-300 transform origin-center ${
+                isMenuOpen ? 'rotate-45 translate-y-1.5' : 'group-hover:w-6'
+              }`}></span>
               <span className={`block w-5 h-0.5 bg-gray-300 transition-all duration-300 ${
-                isMenuOpen ? 'rotate-45 translate-y-1' : 'group-hover:w-6'
+                isMenuOpen ? 'opacity-0 scale-0' : 'group-hover:w-4'
               }`}></span>
-              <span className={`block w-5 h-0.5 bg-gray-300 transition-all duration-300 mt-1 ${
-                isMenuOpen ? 'opacity-0' : 'group-hover:w-4'
-              }`}></span>
-              <span className={`block w-5 h-0.5 bg-gray-300 transition-all duration-300 mt-1 ${
-                isMenuOpen ? '-rotate-45 -translate-y-1' : 'group-hover:w-6'
+              <span className={`block w-5 h-0.5 bg-gray-300 transition-all duration-300 transform origin-center ${
+                isMenuOpen ? '-rotate-45 -translate-y-1.5' : 'group-hover:w-6'
               }`}></span>
             </div>
           </button>
@@ -101,7 +100,6 @@ export default function Navigation() {
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  <span className="mr-3 text-lg">{item.icon}</span>
                   {item.label}
                   {pathname === item.href && (
                     <div className="ml-auto w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>

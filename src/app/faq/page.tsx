@@ -192,7 +192,7 @@ export default function FaqPage() {
                 className="interactive-button bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl font-bold text-lg shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 inline-flex items-center group"
               >
                 <span className="mr-3 group-hover:animate-pulse">📞</span>
-                Заявете обаждане
+                Заявете разговор
                 <span className="ml-3 group-hover:translate-x-1 transition-transform">→</span>
               </Link>
               

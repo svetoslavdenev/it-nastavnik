@@ -111,25 +111,6 @@ export default function UslugiPage() {
 
   return (
     <div className="bg-gray-950 min-h-screen">
-      {/* Hero Section */}
-      <section className="relative py-24 gradient-bg overflow-hidden">
-        {/* Background elements */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-float"></div>
-          <div className="absolute bottom-20 right-10 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-float" style={{animationDelay: '2s'}}></div>
-        </div>
-
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="animate-fade-in-up">
-              <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-                Открийте как можем да ви помогнем да постигнете вашите професионални цели в IT сферата
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Grid */}
       <section className="py-24 bg-gray-900">
         <div className="container mx-auto px-4">
@@ -181,7 +162,7 @@ export default function UslugiPage() {
                     href="/zayavka"
                     className={`inline-flex items-center px-6 py-3 rounded-xl font-semibold transition-all duration-300 group-hover:translate-x-2 ${colorClasses.text} ${colorClasses.hover} border ${colorClasses.border} hover:bg-white/5`}
                   >
-                    Заявете обаждане
+                    Заявете разговор
                     <span className="ml-2 group-hover:animate-pulse">→</span>
                   </Link>
                 </div>
@@ -278,7 +259,7 @@ export default function UslugiPage() {
               className="interactive-button bg-white text-gray-900 px-12 py-6 rounded-2xl font-bold text-xl shadow-2xl hover:shadow-white/25 transition-all duration-300 inline-flex items-center group"
             >
               <span className="mr-3 group-hover:animate-pulse">📞</span>
-              Заявете обаждане
+              Заявете разговор
               <span className="ml-3 group-hover:translate-x-1 transition-transform">→</span>
             </Link>
           </div>
