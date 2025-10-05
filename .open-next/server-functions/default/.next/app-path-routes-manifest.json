@@ -1,0 +1,18 @@
+{
+  "/api/contact/route": "/api/contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/robots.txt/route": "/robots.txt",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/_not-found/page": "/_not-found",
+  "/potvarzhdenie/page": "/potvarzhdenie",
+  "/plashtane/page": "/plashtane",
+  "/pravila/page": "/pravila",
+  "/uslugi/page": "/uslugi",
+  "/kontakti/page": "/kontakti",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/cookies/page": "/cookies",
+  "/faq/page": "/faq",
+  "/zayavka/page": "/zayavka"
+}

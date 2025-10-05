@@ -1,0 +1,23 @@
+{
+  // Wrangler configuration for Cloudflare Workers (OpenNext)
+  "main": ".open-next/worker.js",
+  "name": "it-consultation",
+  "compatibility_date": "2024-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  
+  // Assets configuration for static files
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  
+  // Environment variables (add your own as needed)
+  "vars": {
+    "NODE_ENV": "production"
+  }
+  
+  // Custom domains (update with your domain)
+  // "routes": [
+  //   { "pattern": "yourdomain.com/*", "zone_name": "yourdomain.com" }
+  // ]
+}

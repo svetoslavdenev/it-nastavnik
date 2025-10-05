@@ -1,0 +1,18 @@
+{
+  "/api/contact/route": "app/api/contact/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/potvarzhdenie/page": "app/potvarzhdenie/page.js",
+  "/plashtane/page": "app/plashtane/page.js",
+  "/pravila/page": "app/pravila/page.js",
+  "/uslugi/page": "app/uslugi/page.js",
+  "/kontakti/page": "app/kontakti/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/cookies/page": "app/cookies/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/zayavka/page": "app/zayavka/page.js"
+}
