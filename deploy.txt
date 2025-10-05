@@ -1,0 +1,2 @@
+npx wrangler login   # or set CLOUDFLARE_API_TOKEN in env
+npm run deploy
