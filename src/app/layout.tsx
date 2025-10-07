@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description: 'Предлагаме консултации, уроци и подготовка за интервюта за софтуерни разработчици. Специализираме се в системен дизайн, C#/.NET, Golang и микросервиси.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'IT Наставник - Професионална помощ за разработчици',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'IT Наставник - Професионална помощ за разработчици',
     description: 'Предлагаме консултации, уроци и подготовка за интервюта за софтуерни разработчици. Специализираме се в системен дизайн, C#/.NET, Golang и микросервиси.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
   alternates: {
     canonical: 'https://it-nastavnik.com',
@@ -72,6 +72,34 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="bg">
+      <head>
+        {/* Meta Pixel Code */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '1240007331226183');
+              fbq('track', 'PageView');
+            `
+          }}
+        />
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=1240007331226183&ev=PageView&noscript=1"
+          />
+        </noscript>
+        {/* End Meta Pixel Code */}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

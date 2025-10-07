@@ -181,7 +181,7 @@ export default function Home() {
       <section className="py-24 bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-20 animate-fade-in-up">
-            <h2 className="text-5xl font-bold text-white mb-6 gradient-text">Нашите услуги</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 gradient-text">Нашите услуги</h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
               Предлагаме персонализирани решения за всеки етап от вашата IT кариера
             </p>
@@ -247,7 +247,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-20 animate-fade-in-up">
-              <h2 className="text-5xl font-bold text-white mb-6 gradient-text">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 gradient-text">
                 Технологично независим подход
               </h2>
               <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
@@ -393,7 +393,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative">
           <div className="text-center mb-20 animate-fade-in-up">
-            <h2 className="text-5xl font-bold text-white mb-6 gradient-text">Защо да изберете нас?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 gradient-text">Защо да изберете нас?</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Нашият уникален подход гарантира успех във вашето професионално развитие
             </p>
@@ -446,7 +446,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 text-center relative">
           <div className="animate-fade-in-up">
-            <h2 className="text-5xl font-bold mb-6 text-white">Готови ли сте да започнете?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">Готови ли сте да започнете?</h2>
             <p className="text-xl mb-12 text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Направете първата стъпка към успешната си IT кариера с нашата експертна помощ
             </p>
