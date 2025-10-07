@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
@@ -37,9 +38,15 @@ export default function Navigation() {
           {/* Logo */}
           <Link 
             href="/" 
-            className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300 animate-fade-in-left"
+            className="hover:scale-105 transition-transform duration-300 animate-fade-in-left"
           >
-            IT Наставник
+            <Image 
+              src="/logo.png" 
+              alt="IT Наставник" 
+              width={120} 
+              height={40}
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

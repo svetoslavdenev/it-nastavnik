@@ -34,6 +34,14 @@ export default function KontaktiPage() {
       color: 'purple'
     },
     {
+      title: 'LinkedIn',
+      value: 'IT-Наставник',
+      icon: '💼',
+      description: 'Последвайте ни в LinkedIn за професионални актуализации и IT съвети',
+      action: 'https://www.linkedin.com/company/it-%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8%D0%BA/',
+      color: 'blue'
+    },
+    {
       title: 'Заявка за обаждане',
       value: 'Онлайн форма',
       icon: '📝',

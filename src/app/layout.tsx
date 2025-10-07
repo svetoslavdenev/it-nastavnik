@@ -17,6 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "IT Наставник - Професионална помощ за разработчици",
   description: "Предлагаме консултации, уроци и подготовка за интервюта за софтуерни разработчици. Специализираме се в системен дизайн, C#/.NET, Golang и микросервиси.",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   keywords: "IT консултации, системен дизайн, C# .NET уроци, Golang обучение, микросервиси, бази данни SQL, подготовка интервю, IT ментор, backend разработка",
   authors: [{ name: "IT Наставник" }],
   creator: "IT Наставник",
